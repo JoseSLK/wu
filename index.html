@@ -3,7 +3,10 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>wu-shop</title>
+        <title>Wu Shop</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
@@ -21,12 +24,25 @@
             </div>
         </template>
 
-        <!-- LEFT: cards list -->
-        <div class="products" id="container"></div>
+        <!-- MAIN LAYOUT -->
+        <div class="layout">
+            <!-- LEFT: cards list -->
+            <div class="products" id="container"></div>
 
-        <!-- RIGHT: info panel -->
-        <div class="info-main" id="info-main">
-            <p class="info-placeholder">Select a product</p>
+            <!-- RIGHT: info panel -->
+            <div class="info-main" id="info-main">
+                <!-- Default brand state -->
+                <div class="brand-panel">
+                    <span class="brand-watermark">WU</span>
+                    <div class="brand-content">
+                        <div class="brand-rule"></div>
+                        <h1 class="brand-title">Wu</h1>
+                        <div class="brand-rule"></div>
+                        <!-- ` -->
+                    </div>
+                    <a class="by-credit" href="https://www.instagram.com/lujoxv/" target="_blank" rel="noopener">by: 🐋</a>
+                </div>
+            </div>
         </div>
 
         <script src="script.js"></script>
